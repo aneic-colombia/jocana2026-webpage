@@ -3,16 +3,18 @@
                 class="flex flex-col relative justify-center align-middle w-3/4"
         >
                 <img
-                        class="w-full md:w-1/12 dark:grayscale"
+                        class="w-1/3 md:w-1/12 dark:grayscale"
                         src="./jocana-icon.webp"
                         alt="Logo principal del Jocana 2026"
                 />
 
-                <h1 class="text-6xl dark:text-white">
+                <h1 class="text-4xl md:text-8xl dark:text-white">
                         Jornada de Capacitación Nacional
                 </h1>
         </header>
-        <nav class="flex space-x-4">
+        <nav
+                class="flex md:flex-row flex-col space-y-2 md:space-y-0 md:space-x-4"
+        >
                 <div
                         class="p-2 border-1 rounded-sm dark:bg-zinc-600 shadow-md dark:text-white"
                 >
